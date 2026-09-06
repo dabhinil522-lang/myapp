@@ -1,0 +1,14 @@
+# Local development and generated files
+.vscode/
+*.log
+*.tmp
+*.temp
+*.env
+*.env.*
+
+# Compiled binary; keep the portable source in GitHub
+luffy.exe
+
+# OS metadata
+Thumbs.db
+desktop.ini

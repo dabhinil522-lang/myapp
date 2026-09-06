@@ -3,8 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Neil's personal profile and cyber security learning journey.">
-  <title>Neil | Cyber Security Learner</title>
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none';">
+  <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=()">
+  <meta name="description" content="Neil's AI-inspired student portfolio, photography, and technology journey.">
+  <title>Neil | Student Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -19,7 +23,7 @@
     </a>
     <nav class="nav-links" aria-label="Main navigation">
       <a class="active" href="#about">Profile</a>
-      <a href="#project">Project</a>
+      <a href="#gallery">Gallery</a>
       <a href="#contact">Connect</a>
     </nav>
     <button class="theme-button" id="themeToggle" type="button" aria-label="Switch color theme" title="Switch color theme">
@@ -31,73 +35,61 @@
   <main id="top">
     <section class="hero section-shell" aria-labelledby="hero-title">
       <div class="hero-copy reveal">
-        <p class="eyebrow"><span class="pulse"></span> Available to connect</p>
+        <p class="eyebrow"><span class="pulse"></span> Digital identity / online</p>
         <h1 id="hero-title">Hello, I am<br><span>Neil<span class="accent">.</span></span></h1>
-        <p class="hero-text">An Integrated M.Sc. IT student exploring the art of protecting what matters in a connected world.</p>
+        <p class="hero-text">A curious student at K.S. School of Business Management and Information Technology, building a future in tech, design, and cyber security.</p>
         <div class="hero-actions">
           <a class="button button-primary" href="#about">Explore profile <span aria-hidden="true">-&gt;</span></a>
-          <a class="button button-quiet" href="mailto:dabhinil522@gmail.com">Say hello <span aria-hidden="true">&#9993;</span></a>
+          <a class="button button-quiet" href="#gallery">View my world <span aria-hidden="true">&#8599;</span></a>
         </div>
       </div>
 
-      <div class="hero-visual reveal delay-one" aria-label="Cyber security profile status">
-        <div class="orbit orbit-one"></div>
-        <div class="orbit orbit-two"></div>
-        <div class="profile-orb">
-          <span class="orb-letter">N</span>
-          <span class="orb-caption">NEIL / 01</span>
-        </div>
+      <div class="hero-visual photo-hero reveal delay-one" aria-label="Neil outdoors in a garden">
+        <img src="images/WhatsApp Image 2026-09-06 at 17.18.13.jpeg" alt="Neil standing in a garden">
+        <div class="photo-gradient"></div>
         <div class="scan-line"></div>
-        <div class="signal-card signal-top"><span class="signal-dot"></span> Learning mode</div>
-        <div class="signal-card signal-bottom"><span>ISDE</span><strong>CYBER SECURITY</strong></div>
-        <div class="coordinate">23.0225 N<br>72.5714 E</div>
+        <div class="signal-card signal-top"><span class="signal-dot"></span> AI profile scan</div>
+        <div class="signal-card signal-bottom"><span>K.S. SCHOOL</span><strong>BUSINESS + IT</strong></div>
+        <div class="coordinate">PROFILE / 001<br>AHMEDABAD, IN</div>
+        <button class="ai-scan" id="aiScan" type="button"><span>+</span> Run identity scan</button>
       </div>
     </section>
 
     <section class="ticker" aria-label="Profile highlights">
       <div class="ticker-track">
-        <span>INTEGRATED M.SC. IT</span><i></i><span>SEMESTER 01</span><i></i><span>CYBER SECURITY</span><i></i><span>BUILDING IN PUBLIC</span><i></i>
-        <span>INTEGRATED M.SC. IT</span><i></i><span>SEMESTER 01</span><i></i><span>CYBER SECURITY</span><i></i><span>BUILDING IN PUBLIC</span><i></i>
+        <span>K.S. SCHOOL OF BUSINESS MANAGEMENT</span><i></i><span>INFORMATION TECHNOLOGY</span><i></i><span>STUDENT / CREATOR</span><i></i><span>CYBER SECURITY</span><i></i>
+        <span>K.S. SCHOOL OF BUSINESS MANAGEMENT</span><i></i><span>INFORMATION TECHNOLOGY</span><i></i><span>STUDENT / CREATOR</span><i></i><span>CYBER SECURITY</span><i></i>
       </div>
     </section>
 
     <section class="content-grid section-shell" id="about">
       <div class="section-heading reveal">
         <p class="eyebrow">01 / The essentials</p>
-        <h2>A curious mind,<br><em>under construction.</em></h2>
+        <h2>A curious mind,<br><em>in progress.</em></h2>
       </div>
       <div class="about-copy reveal delay-one">
-        <p class="lead">I am currently studying technology from the inside out, with a growing focus on cyber security at ISDE.</p>
-        <p>My work sits at the intersection of learning, experimenting, and shipping small things that make the web feel more personal. Every project is another way to ask better questions.</p>
+        <p class="lead">I am currently studying at K.S. School of Business Management and Information Technology.</p>
+        <p>My journey brings together information technology, business thinking, cyber security, and a love for visual storytelling. I learn by experimenting, building, travelling, and sharing the process.</p>
         <div class="stat-row">
-          <div><strong>01</strong><span>Current<br>semester</span></div>
-          <div><strong>02</strong><span>Learning<br>tracks</span></div>
-          <div><strong>01</strong><span>Featured<br>project</span></div>
+          <div><strong>01</strong><span>Student<br>journey</span></div>
+          <div><strong>04</strong><span>Tech + creative<br>tracks</span></div>
+          <div><strong>14</strong><span>Moments<br>captured</span></div>
         </div>
       </div>
     </section>
 
-    <section class="project-section section-shell" id="project">
+    <section class="project-section section-shell" id="gallery">
       <div class="section-heading reveal">
-        <p class="eyebrow">02 / What I am building</p>
-        <h2>One project.<br><em>Many directions.</em></h2>
+        <p class="eyebrow">02 / Visual archive</p>
+        <h2>Different places,<br><em>same energy.</em></h2>
       </div>
-      <article class="project-card reveal delay-one">
-        <div class="project-art" aria-label="Abstract web project illustration">
-          <div class="terminal-window">
-            <div class="terminal-bar"><span></span><span></span><span></span><b>neil://project</b></div>
-            <div class="terminal-body"><p><small>01</small> const <strong>curiosity</strong> = true;</p><p><small>02</small> build(<strong>"my other website"</strong>);</p><p><small>03</small> <b class="cursor">_</b></p></div>
-          </div>
-          <div class="art-label">WEB / 001</div>
-        </div>
-        <div class="project-details">
-          <div class="project-number">PROJECT 01</div>
-          <h3>My Other Website</h3>
-          <p>A personal web project where I experiment with design, identity, and the feeling of being online. This is the first of many builds.</p>
-          <div class="tag-list"><span>Web design</span><span>Exploration</span><span>In progress</span></div>
-          <a class="text-link" href="mailto:dabhinil522@gmail.com?subject=My%20Other%20Website">Ask me about it <span aria-hidden="true">-&gt;</span></a>
-        </div>
-      </article>
+      <div class="gallery-grid reveal delay-one">
+        <figure class="gallery-item gallery-wide"><img src="images/WhatsApp Image 2026-09-06 at 17.18.09.jpeg" alt="Neil at a mountain viewpoint"><figcaption>Mountain air / 01</figcaption></figure>
+        <figure class="gallery-item"><img src="images/WhatsApp Image 2026-09-06 at 17.18.11.jpeg" alt="Neil in a black suit"><figcaption>Formal mode / 02</figcaption></figure>
+        <figure class="gallery-item gallery-tall"><img src="images/WhatsApp Image 2026-09-06 at 17.18.10.jpeg" alt="Neil on a green hillside"><figcaption>Outside the frame / 03</figcaption></figure>
+        <figure class="gallery-item"><img src="images/WhatsApp Image 2026-09-06 at 17.18.12.jpeg" alt="Neil in winter clothing"><figcaption>Winter signal / 04</figcaption></figure>
+        <figure class="gallery-item"><img src="images/WhatsApp Image 2026-09-06 at 17.17.59.jpeg" alt="Neil looking over a valley"><figcaption>New perspective / 05</figcaption></figure>
+      </div>
     </section>
 
     <section class="contact-section section-shell" id="contact">
@@ -105,7 +97,7 @@
         <div>
           <p class="eyebrow">03 / Open channel</p>
           <h2>Let us make<br><em>something useful.</em></h2>
-          <p class="contact-intro">Have a question, idea, or just want to say hello? My inbox is open.</p>
+          <p class="contact-intro">Have a question, idea, or just want to say hello? Connect with me while I keep learning and building.</p>
         </div>
         <div class="contact-list">
           <button class="contact-item" type="button" data-copy="dabhinil522@gmail.com"><span class="contact-icon">@</span><span><small>Email</small><strong>dabhinil522@gmail.com</strong></span><b>Copy</b></button>
@@ -116,11 +108,16 @@
   </main>
 
   <footer class="footer section-shell">
-    <span>NEIL / PERSONAL PROFILE</span>
+    <span>NEIL / AI-INSPIRED PROFILE</span>
     <span>MADE WHILE LEARNING</span>
     <span>2026</span>
   </footer>
   <div class="toast" id="toast" role="status" aria-live="polite">Copied to clipboard</div>
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" id="lightboxClose" type="button" aria-label="Close photo">&times;</button>
+    <img id="lightboxImage" src="" alt="">
+    <p id="lightboxCaption"></p>
+  </div>
   <script src="script.js"></script>
 </body>
 </html>
