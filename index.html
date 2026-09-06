@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Neil's personal profile and cyber security learning journey.">
+  <title>Neil | Cyber Security Learner</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="Neil home">
+      <span class="brand-mark">N</span>
+      <span>NEIL<span class="brand-dot">.</span></span>
+    </a>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a class="active" href="#about">Profile</a>
+      <a href="#project">Project</a>
+      <a href="#contact">Connect</a>
+    </nav>
+    <button class="theme-button" id="themeToggle" type="button" aria-label="Switch color theme" title="Switch color theme">
+      <span class="theme-icon" aria-hidden="true">◐</span>
+      <span class="theme-label">Mode</span>
+    </button>
+  </header>
+
+  <main id="top">
+    <section class="hero section-shell" aria-labelledby="hero-title">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="pulse"></span> Available to connect</p>
+        <h1 id="hero-title">Hello, I am<br><span>Neil<span class="accent">.</span></span></h1>
+        <p class="hero-text">An Integrated M.Sc. IT student exploring the art of protecting what matters in a connected world.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#about">Explore profile <span aria-hidden="true">-&gt;</span></a>
+          <a class="button button-quiet" href="mailto:dabhinil522@gmail.com">Say hello <span aria-hidden="true">&#9993;</span></a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal delay-one" aria-label="Cyber security profile status">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="profile-orb">
+          <span class="orb-letter">N</span>
+          <span class="orb-caption">NEIL / 01</span>
+        </div>
+        <div class="scan-line"></div>
+        <div class="signal-card signal-top"><span class="signal-dot"></span> Learning mode</div>
+        <div class="signal-card signal-bottom"><span>ISDE</span><strong>CYBER SECURITY</strong></div>
+        <div class="coordinate">23.0225 N<br>72.5714 E</div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Profile highlights">
+      <div class="ticker-track">
+        <span>INTEGRATED M.SC. IT</span><i></i><span>SEMESTER 01</span><i></i><span>CYBER SECURITY</span><i></i><span>BUILDING IN PUBLIC</span><i></i>
+        <span>INTEGRATED M.SC. IT</span><i></i><span>SEMESTER 01</span><i></i><span>CYBER SECURITY</span><i></i><span>BUILDING IN PUBLIC</span><i></i>
+      </div>
+    </section>
+
+    <section class="content-grid section-shell" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">01 / The essentials</p>
+        <h2>A curious mind,<br><em>under construction.</em></h2>
+      </div>
+      <div class="about-copy reveal delay-one">
+        <p class="lead">I am currently studying technology from the inside out, with a growing focus on cyber security at ISDE.</p>
+        <p>My work sits at the intersection of learning, experimenting, and shipping small things that make the web feel more personal. Every project is another way to ask better questions.</p>
+        <div class="stat-row">
+          <div><strong>01</strong><span>Current<br>semester</span></div>
+          <div><strong>02</strong><span>Learning<br>tracks</span></div>
+          <div><strong>01</strong><span>Featured<br>project</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="project-section section-shell" id="project">
+      <div class="section-heading reveal">
+        <p class="eyebrow">02 / What I am building</p>
+        <h2>One project.<br><em>Many directions.</em></h2>
+      </div>
+      <article class="project-card reveal delay-one">
+        <div class="project-art" aria-label="Abstract web project illustration">
+          <div class="terminal-window">
+            <div class="terminal-bar"><span></span><span></span><span></span><b>neil://project</b></div>
+            <div class="terminal-body"><p><small>01</small> const <strong>curiosity</strong> = true;</p><p><small>02</small> build(<strong>"my other website"</strong>);</p><p><small>03</small> <b class="cursor">_</b></p></div>
+          </div>
+          <div class="art-label">WEB / 001</div>
+        </div>
+        <div class="project-details">
+          <div class="project-number">PROJECT 01</div>
+          <h3>My Other Website</h3>
+          <p>A personal web project where I experiment with design, identity, and the feeling of being online. This is the first of many builds.</p>
+          <div class="tag-list"><span>Web design</span><span>Exploration</span><span>In progress</span></div>
+          <a class="text-link" href="mailto:dabhinil522@gmail.com?subject=My%20Other%20Website">Ask me about it <span aria-hidden="true">-&gt;</span></a>
+        </div>
+      </article>
+    </section>
+
+    <section class="contact-section section-shell" id="contact">
+      <div class="contact-card reveal">
+        <div>
+          <p class="eyebrow">03 / Open channel</p>
+          <h2>Let us make<br><em>something useful.</em></h2>
+          <p class="contact-intro">Have a question, idea, or just want to say hello? My inbox is open.</p>
+        </div>
+        <div class="contact-list">
+          <button class="contact-item" type="button" data-copy="dabhinil522@gmail.com"><span class="contact-icon">@</span><span><small>Email</small><strong>dabhinil522@gmail.com</strong></span><b>Copy</b></button>
+          <button class="contact-item" type="button" data-copy="9664873633"><span class="contact-icon">#</span><span><small>Phone</small><strong>9664873633</strong></span><b>Copy</b></button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer section-shell">
+    <span>NEIL / PERSONAL PROFILE</span>
+    <span>MADE WHILE LEARNING</span>
+    <span>2026</span>
+  </footer>
+  <div class="toast" id="toast" role="status" aria-live="polite">Copied to clipboard</div>
+  <script src="script.js"></script>
+</body>
+</html>
